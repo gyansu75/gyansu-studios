@@ -10,7 +10,7 @@ export default function GyansuStudio() {
   // Replace this with your active Localtunnel / Backend URL from Google Colab
   const API_URL = "https://many-beers-kneel.loca.lt"; 
 
-  const handleGenerate = async () => {
+  const handleGenerate = async () => { 
     setLoading(true);
     setVideoUrl(null);
     
